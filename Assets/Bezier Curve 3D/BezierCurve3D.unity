@@ -943,7 +943,7 @@ MonoBehaviour:
   - {fileID: 1199958572}
   - {fileID: 1734430209}
   - {fileID: 747179393}
-  resolution: 50
+  resolution: 10
 --- !u!120 &2040470029
 LineRenderer:
   serializedVersion: 2

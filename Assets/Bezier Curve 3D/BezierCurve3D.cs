@@ -118,4 +118,14 @@ public class BezierCurve3D : MonoBehaviour
 
         return tempPoints[0];
     }
+
+
+    /// <summary>
+    /// Call this to manually refresh the curve.
+    /// Useful when control points move at runtime.
+    /// </summary>
+    public void UpdateCurve()
+    {
+        DrawCurve();
+    }
 }

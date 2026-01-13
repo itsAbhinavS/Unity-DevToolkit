@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 /// <summary>
 /// BezierCurve2D_UI
@@ -62,7 +61,7 @@ public class BezierCurve2D : MonoBehaviour
     /// Generates the Bezier curve and assigns the calculated
     /// positions to the UILineRenderer.
     /// </summary>
-    public void DrawCurve()
+    private void DrawCurve()
     {
         if (points.Length < 2)
         {
