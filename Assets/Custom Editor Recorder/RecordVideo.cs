@@ -23,7 +23,7 @@ namespace UnityEngine.Recorder.Examples
         /// Resolution of the recorded video (width x height).
         /// </summary>
         [Space(20)]
-        [Header("Video Resolution")]
+        [Header("Video Resolution (Width, Height)")]
         [SerializeField] private Vector2 m_RecordResolution = new Vector2(1920, 1080);
 
         /// <summary>
