@@ -519,6 +519,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fac75390337cd774e986413add7f2fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.Recorder.Examples.RecordScreenshot
+  m_ScreenshotResolution: {x: 2440, y: 1440}
+  captureScreenshotInput:
+    m_Name: Capture Screenshot Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 7413b67e-c2bc-4f0c-9231-0ec38049f982
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f327c0f8-1f5a-498f-8096-32bcf50378ef
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Capture Screenshot Input
+      m_Flags: 0
+    m_Flags: 0
+  outputFileName: DemoImage
+  outputFolderPath: SampleRecordings
+  outputFormat: 0
+  captureAlpha: 0
 --- !u!1 &1259940894
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,7 +621,7 @@ MonoBehaviour:
       m_Action: Stop Recording Input
       m_Flags: 0
     m_Flags: 0
-  outputFileName: MyRecording
+  outputFileName: Demo
   outputFolderPath: SampleRecordings
   outputCodec: 0
   frameRate: 60

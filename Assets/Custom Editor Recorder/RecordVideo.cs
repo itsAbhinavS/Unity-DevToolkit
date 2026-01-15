@@ -158,11 +158,11 @@ namespace UnityEngine.Recorder.Examples
 
 
             // Output file path
-            int takeCount = PlayerPrefs.GetInt("VideoTakes", 0);
-            takeCount++;
-            PlayerPrefs.SetInt("VideoTakes", takeCount);
+            int takeCount = PlayerPrefs.GetInt(outputFileName + "VideoTakes", 0);
             string take = takeCount.ToString();
             m_Settings.OutputFile = $"{mediaOutputFolder.FullName}/{outputFileName}_Resolution{m_RecordResolution.x}x{m_RecordResolution.y}_Fps{frameRate}_Take{take}";
+            takeCount = takeCount + 1;
+            PlayerPrefs.SetInt(outputFileName + "VideoTakes", takeCount);
 
 
             // Setup Recording
